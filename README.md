@@ -1,5 +1,5 @@
 # Extract lyrics from AZlyrics
- Extract song lyrics with the possibility of translation in Python.
+ Extract song lyrics with translation possibility in Python.
 
 ## Compiled 👌
 
