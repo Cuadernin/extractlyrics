@@ -1,15 +1,7 @@
 # Extract lyrics from AZlyrics
  Extract song lyrics with translation possibility in Python.
-
-## Compiled 👌
-
- Before using, you should verify that you have the following packages:
-* Bs4
-* deep-translator
-* urllib3
-* requests
  
- ## Parameters 🔨
+ ## Input 🔨
  ```
  lyrics(cancion,artista,trans)
 ```
