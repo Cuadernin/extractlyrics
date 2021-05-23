@@ -11,5 +11,3 @@
  
  ## Output 🎉
  .txt file with song lyrics
-
-**By Cuadernin**
