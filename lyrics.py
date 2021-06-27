@@ -2,11 +2,6 @@ import re
 import urllib.request 
 from bs4 import BeautifulSoup
 from deep_translator import GoogleTranslator,MyMemoryTranslator
-"""
-    Title: Extractlyrics
-    By: Cuadernin
-    Task: extract the song lyrics searched in azlyrics with the possibility of translation 
-"""
 
 def lyrics(cancion,artista,trans): 
     artista=artista.lower() 
@@ -31,8 +26,8 @@ def lyrics(cancion,artista,trans):
             return lyrics
         else:
             return 'Error: You got the wrong number'
-    except Exception as error: 
-        return "Exception occurre: "+str(error)
+    except Exception as e: 
+        return "Exception occurre: "+str(e)
 fn=lyrics('pásame un bote','banda ms',0)
 archivo=open("song.txt","w") 
 archivo.write(fn)
